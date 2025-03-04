@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* navbar */
+.container-fluid{
+    background-color: #fff;
+    height: 55px;
+}
+.brand-img{
+   margin-bottom: 10px;
+   margin-left: 80px
+    
+}
+.nav-link.active {
+    margin-left: 240px; 
+    font-weight: 300px;
+}
+.nav-item{
+    font-weight: 500;
+    color: yellow;
+}
+.nav-button{
+    color: orange;
+    margin-left: 240px;
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.nav-link:hover {
+    color: orange !important;
+    text-decoration: 3px underline orange;
+}
+
+/* main */
+.main-img{
+    margin-top: 40px;
+    margin-left: 220px;
+}
+.main-heading{
+    text-indent: 90px;
+    margin-top: 130px;
+}
+.yellow-main{
+    color: orange;
+}
+
+.sec-heading{
+    text-indent: 90px;
+
+
+}
+.main-para{
+    font-weight: 800px;
+    text-align: justify;  
+    margin-left: 90px;
+}
+.order-btn{
+    background-color: orange;
+    color:white;
+    width: 130px;
+    height: 30px;
+    border: 2px solid orange;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+/* about */
+.about-heading{
+    margin-top: 80px;
+}
+.about-writen{
+    color: orange;
+}
+.about-para{
+    text-align: justify;
+    margin-right: 10px;
+}
+.about-btn{
+    color: #fff;
+    background-color: orange;
+    width: 130px;
+    height: 30px;
+    border: 2px solid orange;
+    margin-top: 30px;
+}
+/* menu */
+.menu-heading{
+    text-align: center;
+}
+.menu-written{
+    color: orange;
+}
+.menu-item{
+    width: 370px;
+    height: 445px;
+    margin-top: 20px;
+    margin-left: 20px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.3)
+
+}
+.menu-img{
+    margin-left: 8px;
+    margin-top: 5px;
+}
+.para-written{
+    text-align: center;
+}
+.price{
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    
+}
+.btn-order{
+  margin-left: 135px;
+  width: 100px;
+  background-color: black;
+  color: #fff;
+   
+}
+.item-name{
+    color: orange;
+    text-align: center;
+}
+.gallery-heading{
+    text-align: center;
+}
+.gallery-written{
+    color: orange;
+}
+.customer-heading{
+    text-align: center;
+}
+.review-written{
+    color: orange;
+}
+.review-person{
+    height: 600px;
+    width: 150px;
+    margin-left: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.img-rev{
+    margin-left:40px;
+    margin-top: 20px;
+    border-radius: 50%;
+    border: 5px solid grey;
+}
+.review-para{
+    margin-top: 30px;
+}
+.review-mem{
+    margin-top: 10px;
+text-align: center;
+}
+.review-person:hover{
+    margin-bottom: 20px;
+}
+/* order-now */
+.order-heading{
+text-align: center;
+}
+.now-written{
+    color: orange;
+}
+.order-row{
+    background-image: url(./img/bg2.jpg);
+}
+.form-col{
+    margin-top: 100px;
+}
