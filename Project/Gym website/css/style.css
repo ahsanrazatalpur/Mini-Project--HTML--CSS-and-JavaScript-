@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Noto+Sans+JP:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+body {
+  background-image: url("/img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  padding: 24px;
+  justify-content: center;
+}
+nav ul a {
+  color: var(--fontcolor);
+  text-decoration: none;
+  padding: 23px;
+  font-size: 23px;
+}
+.brand {
+  color: var(--fontcolor);
+  font-size: 32px;
+  position: absolute;
+  left: 45px;
+}
+span {
+  font-size: 33px;
+  color: yellow;
+}
+
+.buttons {
+  position: absolute;
+  right: 30px;
+  padding: 4px;
+  top: 30px;
+  text-align: center;
+  font-weight: bolder;
+}
+div span {
+  color: yellow;
+  font-size: 33px;
+}
+.design {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 100px;
+  height: 80px;
+  transform: translate(46px, -36px);
+}
+
+.btn {
+  /* margin:3px 6px; */
+  padding: 12px;
+  margin: 8px;
+  font-size: 12px;
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(218, 218, 84);
+}
+
+nav ul a:hover {
+  color: rgb(230, 230, 112);
+}
+/* main */
+.container {
+  width: 586px;
+  height: 274px;
+  border: 2px solid white;
+  margin: 118px;
+  padding: 34px;
+  border-radius: 12px;
+  position: relative;
+}
+.intro {
+  color: white;
+  text-align: center;
+}
+
+.input {
+  display: flex;
+  position: relative;
+  left: 127px;
+  top: 12px;
+  width: 314px;
+  height: 29px;
+  margin: 6px;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 9px;
+  font-weight: bold;
+}
+
+.btnsub {
+  padding: 12px;
+  margin: 14px;
+  font-size: 17px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+  left: 153px;
+  color:rgba(0,0,0,0.8);
+  background-color: yellow;
+  width: 314px;
+
+}
+.btnsub:hover {
+  background-color: white;
+}
+
+
+:root {
+  --fontcolor: white;
+  --primarycolor: black;
+}

@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    height: 80vh;
+    background-image: url("assest/img/bg.jpg");
+}
+main .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.44;
+    background-color: black;
+}
