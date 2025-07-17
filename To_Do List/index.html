@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ahsan To-Do List</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="brand">Ahsan TODO</div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main-container">
+    <div class="todo-app">
+      <h1>To-Do List</h1>
+      <input type="text" id="taskInput" placeholder="Enter a new task...">
+      <div class="buttons">
+        <button onclick="addTask()">Add Task</button>
+        <button onclick="deleteAll()">Delete All</button>
+      </div>
+      <ul id="taskList"></ul>
+    </div>
+  </main>
+
+  <script src="App.js"></script>
+</body>
+</html>
